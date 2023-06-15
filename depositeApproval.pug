@@ -1,0 +1,62 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title email
+  style.
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Merienda:wght@600&family=Roboto:ital,wght@1,300&family=Sansita:wght@700&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Merienda;
+    }
+    body{
+    padding: 10px;
+    }
+    p{
+    margin:10px 0;
+    font-size: 14px;
+    color: rgb(32, 32, 32);
+    }
+    .link_button{
+    display: flex;
+    justify-content: center;
+    }
+    .link_button button{
+    height: 35px;
+    outline: none;
+    background-color: #0052ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    }
+    .email-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    }
+    .email-wrapper{
+    width: 100%;
+    max-width: 700px;
+    }
+    h2{
+    margin-bottom: 20px;
+    text-align: left;
+    }
+  body
+    .email-container
+      .email-wrapper
+        h2 Deposit Confirmed
+        h4 Hello #{username}
+        p Your deposite of #{amount} has been confirmed
+        p Happy trading! and investments,
+        p Best regards,
+        p MT5CRYPTORADAR
+        a(href="https://mt5cryptoradar.com") mt5cryptoradar.com

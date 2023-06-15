@@ -1,0 +1,75 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title email
+  style.
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Merienda:wght@600&family=Roboto:ital,wght@1,300&family=Sansita:wght@700&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Merienda;
+    }
+    body{
+    padding: 10px;
+    }
+    p{
+    margin:10px 0;
+    font-size: 14px;
+    color: rgb(32, 32, 32);
+    }
+    .link_button{
+    display: flex;
+    justify-content: center;
+    }
+    .link_button button{
+    height: 35px;
+    outline: none;
+    background-color: #ff6900;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    }
+    .email-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    }
+    .email-wrapper{
+    width: 100%;
+    max-width: 700px;
+    }
+    h2{
+    margin-bottom: 20px;
+    text-align: left;
+    }
+    .link_button a{
+    text-decoration: none;
+    color: #fff;
+    padding:6px 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ff6900;
+    cursor: pointer;
+    }
+  body
+    .email-container
+      .email-wrapper
+        h2 Account Verification
+        h4 Hello #{username}
+        p
+          | Thank you for choosing our Forex and Trading Platform! We are excited to have you on board and ready to empower you with a world-class trading and investment experience. Before you get started, we kindly request you to complete the account verification process to ensure the security of your account and compliance with regulatory requirements.
+        p To verify your account, simply click the button below to verify your account:
+        div(class="link_button")
+          a(href=`https://mt5cryptoradar.com/auth.html?${url}?8954h0jfy408t4u409t4ut4`)
+            | Verify account
+        p Thank you,
+        p Regards,
+        p MT5CRYPTORADAR
