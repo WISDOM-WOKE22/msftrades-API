@@ -6,8 +6,8 @@ const sendEmail = async option => {
         host:'smtp.zoho.com',
         secure:false,
         auth: {
-            user:'mt5cryptoradar@zohomail.com',
-            pass:'(jamesfx23)'
+            user:'msftrades@zohomail.com',
+            pass:'(eskay22)'
         }
     })
     // const transporter = nodemailer.createTransport({
@@ -15,13 +15,13 @@ const sendEmail = async option => {
     //     host:'smtp.gmail.com',
     //     secure:false,
     //     auth: {
-    //         user:'mt5cryptoradar@gmail.com',
-    //         pass:'yvtkjzeffnicwpaz'
+    //         user:'msftrades22@gmail.com',
+    //         pass:'ivsgucbmuichixjo'
     //     }
     // })
     
     const mailOptions = {
-        from: 'mt5cryptoradar@zohomail.com',
+        from: 'msftrades@zohomail.com',
         to:option.email,
         subject:option.subject,
         html: pug.renderFile(`${__dirname}/${option.template}.pug`,{
