@@ -49,9 +49,9 @@ app.post('/welcomeEmail', async (req, res) => {
         console.log("hello word")
        await sendEmail({
             email: req.body.email,
-            username:req.body.email,
+            username:req.body.username,
             template: 'welcomeEmail',
-            subject:'Welcome to mt5cryptoradar - Your Journey Begins Here'
+            subject:'Welcome to msftrades - Your Journey Begins Here'
         })
 
         res.status(200)
